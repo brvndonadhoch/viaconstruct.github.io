@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>VIA CONSTRUCT</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div id="navbar">
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="#" class="logo">VIA CONSTRUCT</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="projects.html">PROJECTS</a></li>
+                    <li><a href="news.html">NEWS & UPDATES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+                <button class="menu-toggle">☰</button>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="content">
+            <!-- Add hero heading or tagline here -->
+            <h1>VIA CONSTRUCT LIMITED</h1>
+        </div>
+    </div>
+
+    <!-- JavaScript to toggle nav-links -->
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+
+</body>
+</html>

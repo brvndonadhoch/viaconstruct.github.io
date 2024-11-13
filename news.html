@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>News & Updates - VIA CONSTRUCT</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">VIA CONSTRUCT</a>
+            <ul class="nav-links">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="projects.html">PROJECTS</a></li>
+                <li><a href="news.html">NEWS & UPDATES</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <button class="menu-toggle">☰</button>
+        </div>
+    </nav>
+
+    <!-- News Section -->
+    <section class="news">
+        <div class="container">
+            <h1>NEWS & UPDATES</h1>
+            <p>
+                Stay informed with the latest news and updates from VIA Construct Limited. Learn about our recent projects, industry news, and company milestones.
+            </p>
+
+            <!-- News Articles -->
+            <div class="news-articles">
+                <!-- News Item 1 -->
+                <div class="news-item">
+                    <img src=https://images.unsplash.com/photo-1593630265256-d2cc162ab58f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D alt="News 1">
+                    <h3>New Residential Project Launched</h3>
+                    <p>We are proud to announce the launch of our new luxury residential project, bringing cutting-edge design and sustainability to urban living.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+
+                <!-- News Item 2 -->
+                <div class="news-item">
+                    <img src=https://plus.unsplash.com/premium_photo-1713269888242-52d0a73235b1?q=80&w=1984&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D alt="News 2">
+                    <h3>VIA Construct Wins Industry Award</h3>
+                    <p>We have been honored with the 'Best Construction Firm 2024' award for our outstanding commitment to quality and sustainability.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+
+                <!-- News Item 3 -->
+                <div class="news-item">
+                    <img src=https://images.unsplash.com/photo-1634937809683-ddb52aa8ec62?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHByb2plY3QlMjBsYXVuY2h8ZW58MHwxfDB8fHww alt="News 3">
+                    <h3>Completion of Commercial Building</h3>
+                    <p>We have successfully completed the construction of a high-tech commercial building in the heart of the city's financial district.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+
+                <!-- Add more news items as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- JavaScript to toggle nav-links -->
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+
+</body>
+</html>
