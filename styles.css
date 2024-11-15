@@ -57,7 +57,7 @@ body, html {
 .menu-toggle {
     display: none; /* Hidden by default */
     font-size: 2rem;
-    color: white;
+    color: #ffde49;
     background: none;
     border: none;
     cursor: pointer;
@@ -180,8 +180,15 @@ p {
     }
 
     h1 {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    p {
+        font-size: 1rem;
 }
 /* About Section Styles */
 .about {
